@@ -9,10 +9,9 @@ import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-// import virtualphotography from "public/projects/og-vp2.svg";
 import mewwme from "public/projects/mewwme-og.svg";
-import funquiz from "public/projects/funquiz.svg";
-import ohclips from "public/projects/ohclips.svg";
+import virtualphotography from "public/projects/virtualphotography.svg";
+import somniaProject from "public/projects/somnia-project.svg";
 import mewstify from "public/projects/mewstify-blog.svg";
 
 const ProjectSection: React.FC = () => {
@@ -101,40 +100,40 @@ const projects = [
     codeUrl: "https://github.com/lrmn7/mewstify",
     bgColor: "bg-[#9FD0E3]",
   },
+{
+  title: "Virtual Photography Portfolio",
+  type: "Creative",
+  image: (
+    <Image
+      src={virtualphotography}
+      sizes="100vw"
+      fill
+      alt="Virtual Photography Portfolio"
+      className="transition-transform duration-500 hover:scale-110 object-cover"
+    />
+  ),
+  desc: "A personal virtual photography portfolio featuring cinematic in-game photos captured across multiple games using photomode, exploring atmosphere, storytelling and visual emotion.",
+  tags: ["Virtual Photography", "Gaming", "Photomode", "Creative", "Portfolio"],
+  liveUrl: "https://vp.lrmn.link/",
+  codeUrl: "https://github.com/lrmn7/",
+  bgColor: "bg-[#C7B8FF]",
+},
   {
-    title: "Fun Quiz",
+    title: "Somnia Testnet Hub",
     type: "Frontend",
     image: (
       <Image
-        src={funquiz}
+        src={somniaProject}
         sizes="100vw"
         fill
-        alt="Fun Quiz Web3"
+        alt="Somnia Testnet Project Hub"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "A decentralized quiz platform built on the Somnia Network.",
-    tags: ["Web3", "Quiz App", "Somnia Network", "Gamification"],
-    liveUrl: "https://fun-quiz.fun/",
-    codeUrl: "https://github.com/lrmn7/funquiz",
-    bgColor: "bg-[#B4BEE0]",
-  },
-  {
-    title: "OhCLiPS",
-    type: "Frontend",
-    image: (
-      <Image
-        src={ohclips}
-        sizes="100vw"
-        fill
-        alt="Ohclips"
-        className="transition-transform duration-500 hover:scale-110 object-cover"
-      />
-    ),
-    desc: "Gaming clips sharing platform built using Vue, Express, Redis, Firebase, TailwindCSS and more.",
-    tags: ["Ohclips", "Gaming", "Share moment game", "Web App"],
-    liveUrl: "https://ohclips.vercel.app/",
-    codeUrl: "https://github.com/lrmn7/ohclips",
+    desc: "A project hub showcasing my Somnia Network testnet builds, experiments, and live demos during the Somnia phase testnet.",
+    tags: ["Somnia Network", "Testnet", "Web3", "Project Hub", "Frontend"],
+    liveUrl: "https://elsom.pages.dev/",
+    codeUrl: "https://github.com/lrmn7",
     bgColor: "bg-[#9FD0E3]",
   },
 ];

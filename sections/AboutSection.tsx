@@ -167,30 +167,50 @@ const AboutSection: React.FC = () => {
               </div>
             </div>
 
-            <p className="col-start-1 col-end-3 md:col-start-3 md:col-end-6 row-start-4 row-end-6 lg:row-start-2 lg:row-end-3 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
-              Hey Greetings, I'm{" "}
-              <a href="https://github.com/lrmn7" target="_blank" rel="noopener">
-                L RMN
-              </a>
-              👋🏼, I'm just your average person with a dabbling of coding
-              knowledge and zero experience in{" "}
-              <a href="https://lrmn-vp.is-a.fun" target="_blank" rel="noopener">
-                virtual photography
-              </a>
-              . When I'm not scrolling through cat videos on Instagram, I like
-              to pretend to work on projects, hang out with people who barely
-              tolerate me, read books (mostly for the pictures), listen to
-              music, go on adventures (to the bed and back), and daydream about
-              new ideas that I will likely never act on.
-              <br />
-              Despite my general cluelessness, I've always been curious about
-              the world. As a kid hahaha, I loved taking things apart and
-              pretending to know how to put them back together. While my
-              endeavors in coding and virtual photography have been
-              underwhelming, I'm confident that my boundless enthusiasm and lack
-              of expertise will carry me to new heights (or maybe just to the
-              coffee shop). So if you're looking for someone who is mediocre at
-              everything and has a knack for making bad jokes, I'm your guy!
+            <p className="about-intro col-span-2 md:col-span-3 lg:col-span-3 lg:ml-8 lg:mt-auto max-w-2xl text-base leading-relaxed space-y-4">
+              <span className="block">
+                Hey greetings, I'm{" "}
+                <a
+                  href="https://lrmn.link"
+                  target="_blank"
+                  rel="noopener"
+                  className="font-semibold underline hover:opacity-80 transition"
+                >
+                  L RMN
+                </a>
+                👋🏼 just an average person with a dabbling of coding knowledge
+                and zero real experience in{" "}
+                <a
+                  href="https://vp.lrmn.link"
+                  target="_blank"
+                  rel="noopener"
+                  className="font-semibold underline hover:opacity-80 transition"
+                >
+                  virtual photography
+                </a>
+                .
+              </span>
+
+              <span className="block">
+                When I'm not scrolling through cat videos on Instagram, I like
+                to pretend to work on projects, hang out with people who barely
+                tolerate me, read books (mostly for the pictures), listen to
+                music, go on adventures (to the bed and back), and daydream
+                about ideas I’ll probably never ship.
+              </span>
+
+              <span className="block">
+                Despite my general cluelessness, I’ve always been curious about
+                how things work. As a kid, I loved taking things apart and
+                pretending I knew how to put them back together.
+              </span>
+
+              <span className="block">
+                My coding and virtual photography journey might be
+                underwhelming, but my enthusiasm definitely isn’t. So if you’re
+                looking for someone who’s mediocre at everything and dangerously
+                good at bad jokes. I’m your guy.
+              </span>
             </p>
           </div>
         </RoughNotationGroup>
