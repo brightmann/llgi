@@ -4,7 +4,7 @@ description: >-
   I got tired of reinventing the wheel every time a Discord community needed premium role handling. So, I built a lightweight, event-driven bridge to solve it once and for all.
 excerpt: >-
   Managing Discord bots is fun. Managing payment APIs and manual role syncing is not. Here is the story behind my open-source solution to automate the creator economy.
-datetime: 2026-02-11T18:00:00.000Z
+datetime: 2026-01-06T18:00:00.000Z
 slug: why-i-built-patreon-connect-discord
 featured: true
 category: Open Source
